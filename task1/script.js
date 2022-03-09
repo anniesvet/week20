@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function(event){
 
     // Вывод оценки в localStorage
 
-    let addBtn = document.querySelector(".addBtn");
+    let addBtn = document.querySelectorAll(".addBtn");
     let gradeInput = document.querySelector('.grade');
     let itemsArray = [];
 
